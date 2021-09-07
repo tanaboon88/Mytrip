@@ -1,6 +1,7 @@
 /* Table Of Content */
 
 /* 1.Section Setting */
+/* Nav Bar */
 /* 2.Section Carousel */
 /* 3.Section Blog */
 /* 4.Section Footer */
@@ -14,42 +15,51 @@
 
 /*Section Setting */
 
-    body{
-        font-family: 'Prompt', sans-serif;
+body{
+    font-family: 'Prompt', sans-serif;
+    
+}
 
-    }
+html, body{
+    height: 100%;
+}
 
-    html, body{
-        height: 100%;
-    }
+.bg-alpha{
+    background-color: rgba(77, 127, 170, 0.966);
+}
 
-    .bg-alpha{
-        background-color: rgba(77, 127, 170, 0.966);
-    }
+.border-short-bottom {
+    position: relative;
+    padding: 15px 0;
+    margin-bottom: 25px;
+}
 
-    .border-short-bottom {
-        position: relative;
-        padding: 15px 0;
-        margin-bottom: 25px;
-    }
+.border-short-bottom::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    background: #595959;
+}
 
-    .border-short-bottom::after {
-        position: absolute;
-        content: "";
-        width: 100px;
-        height: 2px;
-        bottom: 0;
-        left: 50%;
-        margin-left: -50px;
-        background: #595959;
-    }
+
+
+/* Navbar */
+#navbar {
+    padding: 25px;
+    transition: 0.5s;
+}
+
 
 /* 2.Section Carousel */
 
-    .carousel, 
-    .carousel-inner, 
-    .carousel-item, 
-    .carousel-item .active{
+.carousel, 
+.carousel-inner, 
+.carousel-item, 
+.carousel-item .active{
         height: 100%;
     }
 
