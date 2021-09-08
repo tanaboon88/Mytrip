@@ -6,3 +6,5 @@ $( window ).on('scroll', function(){
     }
     $('#navbar').css('padding', score)
 });
+
+
