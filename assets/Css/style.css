@@ -79,7 +79,7 @@ html, body{
     }
 
 
-/* Blog */
+/* 3.Section Blog */
     .card{
         border-radius: 15px;
     }
@@ -107,6 +107,12 @@ html, body{
     }
     .warpper-card-img img:hover {
         transform: scale(1.2)
+    }
+
+    .btn-group-custom button{
+        width: 100px;
+        margin: 0.5rem;
+
     }
 
 
@@ -147,7 +153,7 @@ html, body{
         line-height: 50px;
     }
 
-    /*Page Title  */
+    /* 6.Page Title */
     .page-title{
         position: relative;
         display: block;
@@ -158,6 +164,12 @@ html, body{
         object-position: bottom;
 
     }
+    .img-cover{
+        
+        height: 500px;
+    }
+
+
     
 
     /* 8.Star-rating */
