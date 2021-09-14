@@ -118,7 +118,7 @@ html, body{
         padding: 200px 0 200px 0;
         text-align: center;
         color: white;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.5);
         height: 100%;
     }
 
@@ -128,12 +128,12 @@ html, body{
     }
     @media (max-width: 768px) {
         .blog-content{
-            padding: 50px 30px;
+            padding: 20px 20px;
         }
     }
     @media (max-width: 991px) {
         .blog-content{
-            padding: 20px 50px;
+            padding: 20px 20px;
         }
     }
 
