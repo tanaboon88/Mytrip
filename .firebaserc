@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "sclass1-111"
-  }
+    "default": "sclass1-111",
+    "my-blog-32bf7": "my-blog-32bf7"
+  },
+  "targets": {}
 }

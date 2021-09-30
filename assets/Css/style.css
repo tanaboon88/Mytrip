@@ -116,18 +116,18 @@ html, body{
         margin: 0.5rem;
 
     }
-    .blog-img{
-        padding: 200px 0 200px 0;
-        text-align: center;
-        color: white;
-        background: rgba(0, 0, 0, 0.5);
-        height: 100%;
-    }
+
 
     .blog-content{
         padding: 20px 100px; 
         box-shadow: 0px 0px 10px rgb(189, 189, 189);
     }
+
+    .owl-carousel .card-body{
+        height: 150px;
+        overflow: hidden;
+    }
+
     @media (max-width: 768px) {
         .blog-content{
             padding: 20px 20px;
@@ -147,6 +147,7 @@ html, body{
     .semi-footer{
         background-color: #559B99;
         color: #fff;
+        margin-top: 30px;
     }
     .semi-footer a{
 
@@ -180,16 +181,15 @@ html, body{
     }
 
     /* 6.Page Title */
-    .page-title{
-        position: relative;
-        display: block;
-        padding-top: 250px;
-        padding-bottom: 100px;
-        color: #fff;
+ 
+    .page-img{
+        padding: 200px 0 200px 0;
         text-align: center;
-        object-position: bottom;
-
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
     }
+
     .img-cover{
         
         height: 500px;
