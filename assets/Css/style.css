@@ -9,6 +9,7 @@
 /* 6.Page Title */
 /* 7.Timeline */
 /* 8.Star-rating */
+/* To-Top */
 
 
 
@@ -335,3 +336,24 @@ li.inverted>.timeline-card {
         padding-left: 32px;
     }
 }
+
+/* To-Top */
+    .to-top{
+        width: 40px;
+        height: 40px;
+        background: #447979c0;
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        color: #fffF;
+        z-index: 9999;
+        border-radius: 50%;
+        font-size: 25px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .to-top:hover{
+        color: cornsilk;
+        background: rgb(22, 129, 172);
+    }
