@@ -58,35 +58,7 @@
     
 
 <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-alpha">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <!-- <img src="assets/image/Tripp.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-                <i class="fas fa-paw fa-lg"></i>
-                Buddy Trip
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto text-center lead font-weight-bold">
-                  <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-            </div>
-        </div>
-    </nav>
+    <?php include_once('include/navbar.php') ?>
 
 <!-- Section Header -->
    
@@ -103,7 +75,7 @@
         <div class="row pb-5">
             <div class="col-12 text-center">
                 <div class="btn-group-custom">
-                    <a href="blog.html?tag=all"> 
+                    <a href="blog.php?tag=all"> 
                       <button class="btn btn-outline-info active">ทั้งหมด</button>
                     </a>
                       <button class="btn btn-outline-info">เชียงใหม่</button>
@@ -119,7 +91,7 @@
         <div class="row">
             <section class="col-6 col-md-4 col-lg-3 p-2">
               <div class="card h-100">
-                <a href="blog-detail.html?id=001" class="warpper-card-img">
+                <a href="blog-detail.php?id=001" class="warpper-card-img">
                   <img src="https://placeimg.com/800/600/nature?t=1632972350759" class="card-img-top" alt="...">
                 </a>
                 <div class="card-body">
@@ -127,7 +99,7 @@
                   <p class="card-text">ใครที่ไปเที่ยวเชียงใหม่แล้วไม่ได้ไป วัดพระธาตุดอยสุเทพ ถือว่าไปไม่ถึงเชียงใหม่ ...</p>
                 </div>
                   <div class="p-3">
-                    <a href="blog-detail.html?id=001" class="badge badge-pill badge-info">more..</a>
+                    <a href="blog-detail.php?id=001" class="badge badge-pill badge-info">more..</a>
                   </div>
               </div>
             </section>
@@ -249,7 +221,7 @@
     <footer class="semi-footer p-3 text-center text-md-left">
       <div class="row">
         <div class="col-md-4">
-          <a class="navbar-brand text-white" href="index.html">
+          <a class="navbar-brand text-white" href="index.php">
             <i class="fas fa-paw"></i>
             Buddy Trip
           </a>
@@ -268,16 +240,16 @@
           <ul class="navbar-nav text-center">
             <h4>Menu</h4>
             <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="blog.html">Blog</a>
+            <a class="nav-link" href="blog.php">Blog</a>
             </li>
             <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.php">About</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
             </li>
         </ul>
         </div>
