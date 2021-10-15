@@ -148,12 +148,19 @@ html, body{
     .semi-footer{
         background-color: #559B99;
         color: #fff;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .semi-footer a{
 
-        color: #fff;
+        color: rgb(206, 206, 206);
+        font-weight: bold;
     }
+
+    .semi-footer li.active > a{
+
+        color: #ffffff; 
+    }
+
     .semi-footer h4{
         border-bottom: #fff solid 1px;
         padding: 10px 0;
